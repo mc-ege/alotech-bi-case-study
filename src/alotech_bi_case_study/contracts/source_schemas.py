@@ -75,7 +75,7 @@ SOURCE_FIELDS: Final[Mapping[str, TableSpec]] = MappingProxyType(
     }
 )
 
-# GoogleSQL has equivalent type spellings; these should not cause false drift.
+# GoogleSQL has equivalent type spellings, these should not cause false drift.
 _TYPE_ALIASES: Final[Mapping[str, str]] = MappingProxyType(
     {"INT64": "INTEGER", "FLOAT64": "FLOAT", "BOOL": "BOOLEAN"}
 )
