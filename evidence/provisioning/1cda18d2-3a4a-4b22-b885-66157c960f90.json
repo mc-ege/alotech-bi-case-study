@@ -1,0 +1,30 @@
+{
+  "run_id": "1cda18d2-3a4a-4b22-b885-66157c960f90",
+  "started_at_utc": "2026-10-11T20:53:01.609932+00:00",
+  "git_commit": "a9a8a406f5e35f2580b789442e5de6f8288a5760",
+  "git_clean": true,
+  "operation": "apply",
+  "status": "SUCCESS",
+  "datasets": [
+    {
+      "dataset_id": "alotech-bi-case-study.alotech_raw",
+      "location": "US",
+      "created_at": "2026-10-11T20:53:04.353000+00:00"
+    },
+    {
+      "dataset_id": "alotech-bi-case-study.alotech_marts",
+      "location": "US",
+      "created_at": "2026-10-11T20:53:05.555000+00:00"
+    },
+    {
+      "dataset_id": "alotech-bi-case-study.alotech_shared",
+      "location": "US",
+      "created_at": "2026-10-11T20:53:06.542000+00:00"
+    }
+  ],
+  "error_type": null,
+  "partial_changes_possible": false,
+  "project_id": "alotech-bi-case-study",
+  "location": "US",
+  "finished_at_utc": "2026-10-11T20:53:08.146661+00:00"
+}
