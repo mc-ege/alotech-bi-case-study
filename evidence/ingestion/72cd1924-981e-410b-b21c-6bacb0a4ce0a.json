@@ -1,0 +1,96 @@
+{
+  "run_id": "72cd1924-981e-410b-b21c-6bacb0a4ce0a",
+  "git_commit": "f4e2ab3a127cfb4a75bd747da92ab8da9dfe2c02",
+  "git_clean": true,
+  "started_at_utc": "2026-10-11T21:35:45.331591+00:00",
+  "operation": "apply",
+  "status": "SUCCESS",
+  "tables": [
+    {
+      "table": "orders",
+      "source": "bigquery-public-data.thelook_ecommerce.orders",
+      "destination": "alotech-bi-case-study.alotech_raw.orders",
+      "source_rows": 125416,
+      "source_bytes": 6776344,
+      "already_present": false
+    },
+    {
+      "table": "order_items",
+      "source": "bigquery-public-data.thelook_ecommerce.order_items",
+      "destination": "alotech-bi-case-study.alotech_raw.order_items",
+      "source_rows": 181946,
+      "source_bytes": 13652833,
+      "already_present": false
+    },
+    {
+      "table": "users",
+      "source": "bigquery-public-data.thelook_ecommerce.users",
+      "destination": "alotech-bi-case-study.alotech_raw.users",
+      "source_rows": 100000,
+      "source_bytes": 19812464,
+      "already_present": false
+    },
+    {
+      "table": "products",
+      "source": "bigquery-public-data.thelook_ecommerce.products",
+      "destination": "alotech-bi-case-study.alotech_raw.products",
+      "source_rows": 29120,
+      "source_bytes": 4285975,
+      "already_present": false
+    }
+  ],
+  "skipped_verified": [],
+  "copy_run": {
+    "run_id": "72cd1924-981e-410b-b21c-6bacb0a4ce0a",
+    "started_at": "2026-10-11T21:35:45.331591+00:00",
+    "finished_at": "2026-10-11T21:35:59.556288+00:00",
+    "duration_seconds": 14.225,
+    "status": "SUCCESS",
+    "tables": [
+      {
+        "table": "orders",
+        "copy_status": "SUCCESS",
+        "source_rows": 125416,
+        "destination_rows": 125416,
+        "job_id": "alotech_72cd1924981e410bb21c6bacb0a4ce0a_orders",
+        "validation_status": "SUCCESS"
+      },
+      {
+        "table": "order_items",
+        "copy_status": "SUCCESS",
+        "source_rows": 181946,
+        "destination_rows": 181946,
+        "job_id": "alotech_72cd1924981e410bb21c6bacb0a4ce0a_order_items",
+        "validation_status": "SUCCESS"
+      },
+      {
+        "table": "users",
+        "copy_status": "SUCCESS",
+        "source_rows": 100000,
+        "destination_rows": 100000,
+        "job_id": "alotech_72cd1924981e410bb21c6bacb0a4ce0a_users",
+        "validation_status": "SUCCESS"
+      },
+      {
+        "table": "products",
+        "copy_status": "SUCCESS",
+        "source_rows": 29120,
+        "destination_rows": 29120,
+        "job_id": "alotech_72cd1924981e410bb21c6bacb0a4ce0a_products",
+        "validation_status": "SUCCESS"
+      }
+    ],
+    "summary": {
+      "tables_processed": 4,
+      "tables_succeeded": 4,
+      "tables_failed": 0,
+      "tables_pending_validation": 0
+    },
+    "error_type": null
+  },
+  "error_type": null,
+  "partial_changes_possible": false,
+  "project_id": "alotech-bi-case-study",
+  "location": "US",
+  "finished_at_utc": "2026-10-11T21:35:59.556476+00:00"
+}
