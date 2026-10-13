@@ -96,9 +96,6 @@ def copy_missing(
 ) -> tuple[str, ...]:
     """Copy only missing tables and record actual jobs separately from skips.
 
-    Jobs use WRITE_EMPTY: concurrent changes must fail, never overwrite data.
-    Failed or timed-out attempts are logged, not automatically retried.
-    An attempted job ID is not proof that BigQuery accepted the job.
     """
     skipped: list[str] = []
     for plan in plans:

@@ -1,7 +1,4 @@
 """Version-controlled physical schemas for the four thelook_ecommerce sources.
-
-These contracts describe source metadata, *not* PK/FK or row-level quality.
-Source columns are all declared NULLABLE, even where data checks require keys.
 """
 
 from collections import Counter
